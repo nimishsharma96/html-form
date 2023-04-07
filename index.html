@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <style>
+       form {
+    text-align: center;
+       }
+ </style>
+</head>
+
+<body>
+    <form class="formtag">
+        <h1>Survey to date my daughter</h1>
+        <h3>Note: Form is to be completed at least 21 days prior to date</h3>
+        <hr>
+        <h4>Personal details</h4>
+        <label for="">First Name :</label><input placeholder="Please enter first name" type="text"><br><br>
+        <label for="">Last Name :</label><input placeholder="Please enter first name" type="text"><br><br>
+        <label for="">Current Age :</label><input placeholder="Please enter Age" type="text"><br><br>
+        <label for="">Gender :</label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        <label for="">Email Address :</label><input placeholder="Please Enter Your Email" type="text"><br><br>
+        <label for="">Iq Level :</label><input placeholder="Iq level" type="text"><br><br>
+        <hr>
+
+        <h4>Check All that apply</h4><br>
+
+        <label for="">I love spending money</label><input type="checkbox"><br><br>
+        <label for="">I work full time</label><input type="checkbox"><br><br>
+        <label for="">I have tattos and pearcieng</label><input type="checkbox"><br><br>
+        <label for="">I earn more than $10000 a m onth</label><input type="checkbox"><br><br>
+        
+        <h4>Honest is the best policy</h4><br>
+        <hr>
+        <h4>Pickup Line </h4>
+
+        <p>In about 20 words construct a pickup line that will attracts my daughter </p>
+
+        <label for="">Pickup Line :</label><input type="text"><br>
+
+        <input type="submit" name="submit" id="btn"><br><br>
+
+
+
+    </form>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", function (event) {
+            event.preventDefault()
+        });
+    </script>
+</body>
+
+</html>
